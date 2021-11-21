@@ -3,19 +3,14 @@ username() {
    echo "%B[%{$FG[183]%} %n %f]%b"
 }
 
-# current directory, two levels deep
+# current directory, one level deep
 directory() {
    echo "%B%{$FG[185]%} /%1/ %f%b"
 }
 
-# current time with milliseconds
+# current time with seconds
 current_time() {
    echo "%*"
-}
-
-# returns 👾 if there are errors, nothing otherwise
-return_status() {
-   echo "%(?..\u2718)"
 }
 
 # set the git_prompt_info text
