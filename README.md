@@ -7,10 +7,10 @@ It uses the terminal's own 16 ANSI colors instead of fixed hex values, so it fol
 colorscheme your terminal uses. Change the terminal theme and the prompt changes with it.
 
 ### Dark terminal
-![gugulenok on a dark terminal](<screenshots/gugulenok (dark variant).png>)
+![gugulenok on a dark terminal](<screenshots/gugulenok (dark terminal).png>)
 
 ### Light terminal
-![gugulenok on a light terminal](<screenshots/gugulenok (light variant).png>)
+![gugulenok on a light terminal](<screenshots/gugulenok (light terminal).png>)
 
 ## Install
 
