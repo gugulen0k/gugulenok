@@ -1,7 +1,21 @@
 # gugulenok
 
-### Light (Background color for terminal: #f8f9fa)
-![image](https://user-images.githubusercontent.com/47348892/172132759-fef92c32-a0fe-402f-ad52-3c0ffdb7a1ab.png)
+Minimal [oh-my-zsh](https://ohmyz.sh) theme. The directory is on the left, git branch and
+status on the right.
 
-### Dark (Background color for terminal: #212529)
-![image](https://user-images.githubusercontent.com/47348892/172134499-758225cc-700b-4af3-abff-c9f2dad6d462.png)
+It uses the terminal's own 16 ANSI colors instead of fixed hex values, so it follows whatever
+colorscheme your terminal uses. Change the terminal theme and the prompt changes with it.
+
+### Dark terminal
+![gugulenok on a dark terminal](<screenshots/gugulenok (dark variant).png>)
+
+### Light terminal
+![gugulenok on a light terminal](<screenshots/gugulenok (light variant).png>)
+
+## Install
+
+```sh
+ln -s "$PWD/gugulenok.zsh-theme" ~/.oh-my-zsh/themes/
+```
+
+Then set `ZSH_THEME="gugulenok"` in `~/.zshrc`.
